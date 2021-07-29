@@ -1,0 +1,86 @@
+ /*============
+                 google font
+                              ===============*/
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ *{
+    font-family: 'Poppins', sans-serif;
+ }
+
+/*==============
+               common stylesheet  
+                            =================*/
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+
+}
+
+.f-weight{
+    font-weight: 600;
+}
+
+.s-weight{
+    font-weight: 200;
+}
+
+.f-clr-orange{
+    color: #E76F51;
+}
+
+.f-clr-blue{
+    color: #23A6F0;
+}
+
+/*===========
+             header part stylesheet 
+                                  ===============*/
+
+
+.head-cvr-bg{
+    background: #264653;
+}
+
+.head-cvr-btn{
+   font-weight: 300; 
+   padding: 10px 46px ;
+   background: #E76F51;
+}
+
+.bg-orange{
+    background: #E76F51;
+}
+
+/*===========
+             Fetures bike styleshee
+                                  ===============*/
+.gray-scale {
+    filter: grayscale(100%);
+  }
+.gray-scale:hover{
+    filter: grayscale(0%);
+}
+
+
+/*===========
+              Categories stylesheet
+                                  ===============*/
+.categories img{
+    width: 35%;
+}
+.honda-btn-buy-now{
+    background-image: linear-gradient(to bottom, #ff287d 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+
+/*===========
+              Clients stylesheet
+                                  ===============*/
+.fa-star{
+    color: #E77C40;
+}
+
+ 
